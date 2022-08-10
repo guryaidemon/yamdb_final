@@ -5,8 +5,8 @@ from reviews.models import (
     Comment,
     Genre,
     GenreTitle,
-    Title,
     Review,
+    Title,
     User
 )
 
