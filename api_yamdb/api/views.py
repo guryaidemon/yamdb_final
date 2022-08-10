@@ -105,6 +105,7 @@ class CommentViewSet(viewsets.ModelViewSet):
                 title__pk=title_id
             )
             return review.comments.all()
+        return None
 
     def perform_create(self, serializer):
         if get_object_or_404(Title, pk=self.kwargs.get('title_id')):
