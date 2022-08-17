@@ -1,6 +1,7 @@
 ![yamdb_workflow Status](https://github.com/guryaidemon/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master&event=push)
 # yamdb_final
-http://158.160.0.193/admin/
+http://158.160.0.155/admin/
+http://158.160.0.155/redoc/
 
 REST API проект для сервиса YaMDb — сбор отзывов о фильмах, книгах или музыке. 
 
